@@ -1,21 +1,22 @@
 ﻿var twitter = require('twitter');
 var cylon = require('cylon');
+var config = require('./config');
 
 var twit = new twitter({
-    consumer_key: '{CONSUMER_KEY}',
-    consumer_secret: '{CONSUMER_SECRET}',
-    access_token_key: '{ACCESS_TOKEN_KEY}',
-    access_token_secret: '{ACCESS_TOKEN}'
+    consumer_key: config.consumerKey,
+    consumer_secret: config.consumerSecret,
+    access_token_key: config.accessTokenKey,
+    access_token_secret: config.accessTokenSecret
 });
 
 cylon.robot({
     connections: { edison: { adaptor: 'intel-iot' } },
     devices: { monkey: { driver: 'direct-pin', pin: 2 } },
     work: function (edison) {
-        twit.stream('filter', { track: '{TWITTER_SEARCH}' }, function (stream) {
+        twit.stream('filter', { track: '#cfmonkey' }, function (stream) {
             stream.on('data', function (data) {
-                eddie.monkey.turnOn();
-                setTimeout(function () { eddie.monkey.turnOff(); }, 5000);
+                edison.monkey.digitalWrite(1);
+                setTimeout(function () { edison.monkey.digitalWrite(0); }, 5000);
             });
         });
     }
