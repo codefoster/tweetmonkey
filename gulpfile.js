@@ -1,3 +1,4 @@
+/// <vs AfterBuild='deploy' />
 var gulp = require('gulp');
 var scp = require('gulp-scp2');
 var config = require('./config');
