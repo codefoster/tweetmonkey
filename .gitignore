@@ -27,4 +27,4 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
-.ntvs_analysis.dat
+.ntvs_analysis.*
