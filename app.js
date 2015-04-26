@@ -17,8 +17,9 @@ cylon.robot({
         //monitor by topic
         twit.stream('filter', { track: '#tweetmonkey' }, function (stream) {
             stream.on('data', function (data) {
+                console.log('Tweet received from ' + data.user.screen_name + ': "' + data.text + '"');
                 edison.monkey.digitalWrite(1);
-                setTimeout(function () { edison.monkey.digitalWrite(0); }, 5000);
+                setTimeout(function () { edison.monkey.digitalWrite(0); }, 2000);
             });
         });
         
