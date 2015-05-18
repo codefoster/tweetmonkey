@@ -22,18 +22,6 @@ cylon.robot({
                 setTimeout(function () { edison.monkey.digitalWrite(0); }, 2000);
             });
         });
-        
-        ////monitor by user
-        //twit.showUser('{SCREENNAME}', function (data) {
-        //    userId = data.id;
-        //    twit.stream('filter', { follow: userId }, function (stream) {
-        //        stream.on('data', function (data) {
-        //            edison.monkey.digitalWrite(1);
-        //            setTimeout(function () { edison.monkey.digitalWrite(0); }, 5000);
-        //        });
-        //    });
-        //});
-
     }
 }).start();
 
