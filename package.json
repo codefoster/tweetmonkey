@@ -1,17 +1,19 @@
 {
-    "name": "tweetmonkey",
-    "version": "0.0.1",
-    "description": "Tweet no evil.",
-    "main": "app.js",
-    "author": {
-        "name": "Jeremy Foster",
-        "email": "jeremy.foster@live.com"
-    },
-    "devDependencies": {
-        "gulp": "^3.8.10",
-        "candyman": "^0.1.85"
-    },
-    "dependencies": {
-        "twitter": "^0.2.13"
-    }
+  "name": "tweetmonkey",
+  "version": "0.1.0",
+  "description": "A hilariously simple maker project",
+  "main": "app.js",
+  "author": {
+    "name": "Jeremy Foster",
+    "email": "jeremy.foster@live.com"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "candyman": "^0.1.85"
+  },
+  "dependencies": {
+    "edison-io": "^0.8.18",
+    "johnny-five": "^0.8.85",
+    "twitter": "^0.2.13"
+  }
 }
