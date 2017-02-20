@@ -5,7 +5,8 @@ This monkey comes out of the box ready to entertain the masses with a simple on/
 So the first thing we need to do is inspect our monkey's downstairs and see how the switch works.
 
 Here's what we see...
-[!Monkey switch](images/tweetmonkey/switch.png)
+
+![Monkey switch](images/switch.png)
 
 If you've chosen to control something other than this monkey, what you're looking for is any means of tapping into the primary circuit. You want to be able to complete the circuit with logic... programmatically. If your device doesn't do its thing simply by being switched on (like it has a "go" button of some kind) then that's going to be different, and is outside the scope of this project tutorial. It's not impossible or even often all that difficult though, so take heart.
 
@@ -25,7 +26,7 @@ There are two ways to accomplish this. If you don't mind a little drilling and s
 
 We need to run wires outside all clean like, so let's drill some very small holes through the trap door and run wires through. Then we'll set up a soldering station and solder the wires directly to the contacts.
 
-[!Holes](images/tweetmonkey/holes.png)
+![Holes](images/holes.png)
 
 Now we can close the door and we've got two wires that when touched together complete the circuit and set the monkey in motion. Conveniently, we have not disabled our on/off switch, so if we wish to use it to turn the monkey on, we can still do that.
 
