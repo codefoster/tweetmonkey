@@ -1,4 +1,4 @@
-## Modify the monkey
+## Modify the Monkey
 
 This monkey comes out of the box ready to entertain the masses with a simple on/off switch on his... uh... underside. That sort of monkey business isn't enough for us though! We want to control it programmatically. Because... makers!
 
@@ -22,17 +22,14 @@ So we want to control the monkey by simply doing the equivalent of turning the s
 
 What we discover in this monkey's underside is that the switch on the outside of the trapdoor is simply connecting or disconnecting the ends of the batteries and completing or breaking the circuit. So let's do the same. Let's simply tap into the two contacts with some wires, run them out, and use software to virtually touch the ends of the wire together.
 
-There are two ways to accomplish this. If you don't mind a little drilling and soldering, you can run wires through the battery door and solder them to the metal contacts. This is a good solution if you're comfortable with it. If you'd rather avoid the extra work, read on.
+There are two ways to accomplish this, but each accomplishes the same thing - it gives us two wires that when touched together complete the circuit and set the monkey in motion. Conveniently, neither disables our monkey's original on/off switch, so if we wish to use it to turn the him on and off manually, we still can.
 
-We need to run wires outside all clean like, so let's drill some very small holes through the trap door and run wires through. Then we'll set up a soldering station and solder the wires directly to the contacts.
-
+1. **The hard way**. If you're the soldering type, you can drill holes through the battery door and solder them to the metal contacts. 
 ![Holes](images/holes.png)
 
-Now we can close the door and we've got two wires that when touched together complete the circuit and set the monkey in motion. Conveniently, we have not disabled our on/off switch, so if we wish to use it to turn the monkey on, we can still do that.
+1. **The easy way**. You can avoid drilling and soldering, by simply using a little bit of electrical tape to attach wires to the ends of the batteries - the black wire to the battery that's showing its negative end, and the red wire to the battery that's showing its positive end. run the wires through the holes on the side of the battery door, then they'll be more secure and you won't need to close them in the door.
 
-To avoid drilling and soldering, simply use a little bit of electrical tape to attach wires to the ends of the batteries. The black wire to the battery that's showing its negative end, and the red wire to the battery that's showing its positive end. Then carefully close the wires in the door (it will fit though very snugly) and lock it.
-
-[!Electrical tape](images/electrictape.jpg)
+![Electrical tape](images/electricaltape.jpg)
 
 And just like that, we're done with surgery. Your monkey should recover nicely.
 
