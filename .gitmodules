@@ -1,9 +1,0 @@
-[submodule "tweetmonkey-edison"]
-	path = tweetmonkey-edison
-	url = https://github.com/codefoster/tweetmonkey-edison
-[submodule "tweetmonkey-raspi"]
-	path = tweetmonkey-raspi
-	url = https://github.com/codefoster/tweetmonkey-raspi
-[submodule "tweetmonkey.io"]
-	path = tweetmonkey.io
-	url = https://github.com/codefoster/tweetmonkey.io
