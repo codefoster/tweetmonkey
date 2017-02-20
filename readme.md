@@ -15,7 +15,7 @@ The entirety of the code for Tweet Monkey easily fits on a single page. It's ver
 I encourage you to make a Tweet Monkey yourself. The effort is small and you'll get a fun introduction to maker projects that use software and electronics together.
 
 ## Getting Started
-First, you'll need to buy some stuff. There's not getting around it. Unless, that is, you've attended one of my events and gotten a complete Tweet Monkey kit!
+First, you'll need to buy some stuff. There's no getting around it. Unless, that is, you've attended one of my events and gotten a complete Tweet Monkey kit!
 
 Here are the steps for building your own...
 
