@@ -22,3 +22,4 @@ Micro-USB power supply | $4.50 | [Amazon](https://www.amazon.com/gp/product/B00E
 
 Additionally, you'll need some wire clippers or strippers for cutting the wire and exposing the conductor. No soldering is required for this project.
 
+Next, learn how to [modify the monkey](modify.md).

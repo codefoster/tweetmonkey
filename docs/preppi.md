@@ -48,3 +48,5 @@ One last thing. You need to configure Raspbian to allow the root user to SSH to 
 I followed <a href="https://gist.github.com/stolsma/3301813">these instructions</a> for installing Node.js, but I believe there's an easier way and I'm going to update this soon.
 
 You can see all of the available versions of Node.js at <a href="http://nodejs.org/dist">nodejs.org/dist</a> and notice if you click on <a href="http://nodejs.org/dist/v0.10.26/">version 0.10.26</a> that you see a tarball specifically for the Pi. That's because normally the V8 engine that is behind Node.js isn't compatible with ARM processors. There are certain versions of Node.js that have a compatible build, however. And if I'm not mistaken, the latest versions of Node.js (based on the io.js codebase) are ARM compatible. I need to test that out.  
+
+Next, learn how to [sign up to use the Twitter API](twitter.md).

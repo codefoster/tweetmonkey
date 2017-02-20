@@ -19,13 +19,13 @@ First, you'll need to buy some stuff. There's not getting around it. Unless, tha
 
 Here are the steps for building your own...
 
-1. [Buy the stuff](buy.md)
-1. [Modify the monkey](modify.md)
-1. [Complete the circuit](circuit.md)
-1. [Prep your Raspberry Pi](preppi.md)
-1. [Sign up to use the Twitter API](twitter.md)
-1. [Write the code](code.md)
-1. [Deploy the code](deploy.md)
+1. [Buy the stuff](docs/buy.md)
+1. [Modify the monkey](docs/modify.md)
+1. [Complete the circuit](docs/circuit.md)
+1. [Prep your Raspberry Pi](docs/preppi.md)
+1. [Sign up to use the Twitter API](docs/twitter.md)
+1. [Write the code](docs/code.md)
+1. [Deploy and run the program](docs/deploy.md)
 
 So there you have it - a simple, end-to-end Tweet Monkey! Just what everyone needs.
 

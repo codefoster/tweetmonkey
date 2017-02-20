@@ -26,3 +26,5 @@ To SCP, use...
 ```
 scp index.js config.js package.json pi@192.168.1.13 // or whatever your IP address happens to be
 ```
+
+Next, learn how to [deploy and run the program](deploy.md).

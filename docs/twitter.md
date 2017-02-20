@@ -21,3 +21,5 @@ You should now be able to see your Consumer Key (API Key), your Consumer Secret 
 <img alt="Access Key" src="images/tweetmonkey/access-key.png"/>                        
 
 Copy down those four values because those are what you need to use Twitter from your app. 
+
+Next, learn how to [write the code](code.md).

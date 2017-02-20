@@ -34,3 +34,5 @@ To avoid drilling and soldering, simply use a little bit of electrical tape to a
 [!Electrical tape](images/electrictape.jpg)
 
 And just like that, we're done with surgery. Your monkey should recover nicely.
+
+Next, learn how to [create the circuit](circuit.md).
