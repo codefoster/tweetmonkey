@@ -1,4 +1,6 @@
 ## Buy the Stuff
+First, you'll need to buy some stuff. There's no getting around it. Unless, that is, you've attended one of my events and gotten a complete Tweet Monkey kit!
+
 The list of materials below is absolutely everything you need to get started.
 
 Next to each item, you'll find links to purchase online. You would be better off on many of these components to buy them in bulk to keep your cost low. For some items, it's difficult to buy a small enough quantity to complete a single project. I think you should go ahead and stock up and use the extras for new maker projects!
