@@ -1,7 +1,6 @@
 var five = require("johnny-five");
 var Pi = require("raspi-io");
 var Twitter = require('twitter');
-var config = require('./config');
 
 var board = new five.Board({
   io: new Pi()
@@ -10,10 +9,10 @@ var board = new five.Board({
 //configure the Twitter module with our consumer and access keys
 //obtain these by going to apps.twitter.com
 var twit = new Twitter({
-    consumer_key: config.twitter.consumerKey,
-    consumer_secret: config.twitter.consumerSecret,
-    access_token_key: config.twitter.accessTokenKey,
-    access_token_secret: config.twitter.accessTokenSecret
+    consumer_key: process.env.TWITTER_CONSUMER_KEY,
+    consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
+    access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
+    access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
 var ON_DURATION = 2000;
