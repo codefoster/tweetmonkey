@@ -1,0 +1,32 @@
+{
+  "name": "tweetmonkey",
+  "version": "0.1.0",
+  "description": "A hilariously simple maker project",
+  "keywords": [
+    "iot",
+    "maker",
+    "project",
+    "hardware",
+    "electronics",
+    "monkey",
+    "robot",
+    "nodebot"
+  ],
+  "homepage": "http://tweetmonkey.io",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Jeremy Foster",
+    "email": "jeremy.foster@live.com",
+    "url": "http://codefoster.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codefoster/tweetmonkey"
+  },
+  "dependencies": {
+    "johnny-five": "^0.8.85",
+    "raspi-io": "^3.3.5",
+    "twitter": "^1.2.5"
+  }
+}
