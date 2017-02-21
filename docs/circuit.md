@@ -1,7 +1,7 @@
 ## Complete the Circuit
 
 The complete diagram or Tweet Monkey is as follows...
-[![Breadboard diagram](images/breadboard-diagram-700.png)](images/breadboard-diagram.png)
+![Breadboard diagram](images/breadboard-diagram.png)
 
 You can click that image to make it bigger.
 
