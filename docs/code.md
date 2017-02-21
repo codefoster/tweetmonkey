@@ -22,7 +22,7 @@ scp index.js package.json pi@raspberrypi.local
 I like to use `rsync`. Here's how to do that...
 
 ```
-rsync -av -e ssh . pi@raspberrypi.local:~/tweetmonkey
+rsync -rave ssh . pi@raspberrypi.local:~/tweetmonkey
 ```
 
 In both cases, you'll be prompted for your the password to your Pi until you setup ssh keys to make that annoyance go away.
